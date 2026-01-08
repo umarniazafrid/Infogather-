@@ -29,6 +29,7 @@ REQUIREMENTS
 INSTALL DEPENDENCIES
 --------------------
 sudo apt update
+
 sudo apt install g++ whois -y
 
 COMPILE
@@ -43,3 +44,4 @@ NOTE
 ----
 Root privileges are required for certain network operations
 such as ICMP-based host checks.
+
