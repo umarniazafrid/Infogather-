@@ -12,3 +12,9 @@ Infogather++ follows **Semantic Versioning (SemVer)**:
 ### Stability Notice
 Early versions focus on building a reliable and extensible recon foundation.
 Feature depth and coverage will expand gradually in future releases.
+
+▶️ Compile & Run
+On Linux
+sudo apt install g++ whois -y
+make
+sudo ./infogather++
