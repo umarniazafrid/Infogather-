@@ -13,12 +13,33 @@ Infogather++ follows **Semantic Versioning (SemVer)**:
 Early versions focus on building a reliable and extensible recon foundation.
 Feature depth and coverage will expand gradually in future releases.
 
-▶️ Compile & Run
-On Linux
 
+
+KALI LINUX INSTRUCTIONS
+======================
+
+This tool is designed and tested on Kali Linux.
+
+REQUIREMENTS
+------------
+- Kali Linux (or any modern Linux distro)
+- g++ (C++ compiler)
+- whois utility
+
+INSTALL DEPENDENCIES
+--------------------
+sudo apt update
 sudo apt install g++ whois -y
 
+COMPILE
+-------
 make
 
+RUN
+---
 sudo ./infogather++
 
+NOTE
+----
+Root privileges are required for certain network operations
+such as ICMP-based host checks.
