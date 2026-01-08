@@ -15,6 +15,10 @@ Feature depth and coverage will expand gradually in future releases.
 
 ▶️ Compile & Run
 On Linux
+
 sudo apt install g++ whois -y
+
 make
+
 sudo ./infogather++
+
