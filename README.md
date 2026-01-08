@@ -44,6 +44,7 @@ sudo ./infogather++
 
 REPORT
 [✔] Recon completed. Report saved.
+
 sudo nano recon_report.json 
 
 
@@ -51,6 +52,7 @@ NOTE
 ----
 Root privileges are required for certain network operations
 such as ICMP-based host checks.
+
 
 
 
