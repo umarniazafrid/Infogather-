@@ -34,6 +34,8 @@ sudo apt install g++ whois -y
 
 COMPILE
 -------
+cd Infogather- 
+
 make
 
 RUN
@@ -44,4 +46,5 @@ NOTE
 ----
 Root privileges are required for certain network operations
 such as ICMP-based host checks.
+
 
